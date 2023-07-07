@@ -1,0 +1,16 @@
+- [ ] servidor interage com o cliente da maneira esperada
+  - [x] servidor aceita conexões
+  - [x] servidor inicia uma task para cada conexão nova
+  - [x] servidor mantém uma lista de conexões abertas
+  - [x] servidor consegue receber o progresso do cliente
+  - [ ] servidor consegue reagir quando o cliente termina seu trabalho
+  - [x] servidor consegue saber quando o cliente inesperadamente falha
+  - [x] servidor permite nomear clientes
+    - [x] um novo cliente que ocupar o lugar do cliente antigo deve herdar o mesmo nome
+- [ ] interface do servidor funciona da maneira esperada
+  - [ ] interface mostra lista de clientes conectados
+    - [x] mostra nome dos clientes
+    - [x] mostra progresso do cliente
+    - [ ] mostra erros do cliente
+  - [x] interface permite selecionar clientes
+  - [x] interface permite editar o nome do cliente selecionado
